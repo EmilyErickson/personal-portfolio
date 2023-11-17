@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<div class="header">
+    <!-- <img src="https://images.pexels.com/photos/1462011/pexels-photo-1462011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Landscape" class="portrait" height="310" width="310"> -->
+    <picture class="portrait">
+        <source 
+          srcset="images/header-photo.jpeg"
+          media="(min-width: 1000px)"
+        />
+        <source 
+          srcset="images/header-photo-square.jpeg"
+          media="(min-width: 600px)"
+        />
+        <img 
+          src="images/header-photo.jpeg" 
+          alt="Tree"
+        />
+      </picture>
+    <div class="about-div">
+        <h1 class="about-header">About Me</h1>
+        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipiscing elit proin nibh dignissim parturient, natoque quam consequat magnis inceptos aliquam arcu semper facilisi ante, auctor ut eget mus fames rhoncus mauris scelerisque eros augue. Quis porta vestibulum justo porttitor aptent ornare cum mattis imperdiet, fringilla velit himenaeos placerat tempor ut malesuada curabitur ac, a maecenas nibh laoreet accumsan fames est id.</p>
+        <div class="icons">
+            <button onclick="location.href='//github.com/EmilyErickson'"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></button>
+            <button><img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" /></button>
+        </div>
+    </div>
+</div>
+    <div class="work">
+        <h1 class="work-header">My Work</h1>
+        <button class="project">
+            <div class="screenshot">screenshot of project</div>
+            <div class="project-info">
+                <h1 class="project-name">Project Name</h1>
+                <button class="test"></button>
+            </div>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p>
+        </button>
+        <!-- <button class="project"><div class="screenshot">screenshot of project</div>
+            <h1 class="project-name">Project Name</h1>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p></button>
+        <button class="project"><div class="screenshot">screenshot of project</div>
+            <h1 class="project-name">Project Name</h1>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p></button>
+        <button class="project"><div class="screenshot">screenshot of project</div>
+            <h1 class="project-name">Project Name</h1>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p></button>
+        <button class="project"><div class="screenshot">screenshot of project</div>
+            <h1 class="project-name">Project Name</h1>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p></button>
+        <button class="project"><div class="screenshot">screenshot of project</div>
+            <h1 class="project-name">Project Name</h1>
+        <p class="project-description">Short description of the project. Just a couple sentences will do.</p></button> -->
+    </div>
+    <div class="contact">
+        <h1 class="contact-header">Contact Me</h1>
+        <p class="contact-text">Please get in touch if you think our work could be mutually beneficial!
+
+            1234 Random Road
+            Random Town, California 12345
+        </p>
+        <button class="icon"></button>
+        <button class="icon"></button>
+        <button class="icon"></button>
+    </div>
+</body>
+</html>
