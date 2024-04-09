@@ -17,3 +17,7 @@ I was asked to build a given design brief. I was given a full design in 3 differ
 
 - HTML
 - CSS
+
+## Live Page
+
+Live page here: https://emilyerickson.github.io/personal-portfolio/
